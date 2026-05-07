@@ -11,6 +11,7 @@ const ApiFetching = () => {
 
     return (
         <div>
+            <h1>Q2. Api Fetching</h1>
             {users.map((user) => (
                 <div key={user.id}>
                     <p>Name: {user.name}</p>

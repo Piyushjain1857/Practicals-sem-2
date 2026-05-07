@@ -5,6 +5,7 @@ const LikeButton = () => {
 
   return (
     <div>
+      <h1>Q1. Emoji Toggle Button</h1>
       <button onClick={() => setLiked(!Liked)} style={{ fontSize: '100px' , borderRadius: '40%' }}>
         {Liked ? '❤️' : '🤍'}
       </button>
